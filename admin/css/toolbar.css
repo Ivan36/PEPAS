@@ -1,0 +1,46 @@
+
+
+
+body{
+    background-image:url(back.jpg);
+}
+#tit{
+    background-image: url(back.jpg);
+    position: relative;
+    width: 100%;
+    text-align: center;
+    min-height: auto;
+    color:burlywood;
+    font-size: 29px;
+    font-weight: bolder;
+    
+}
+#nav a{
+    color:aqua;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    background-color:191970;
+
+}     
+#nav{
+    background-color:darkcyan;
+}
+.nice{
+    color: darkgreen
+}
+.animated{
+    font: 100 1em/1.5em sans-serif;
+    background-color: white;
+    color: brown;
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.0;
+    animation: myAnimation 2s ease 1s 3 alternate forwards;
+}
+@keyframes myAnimation{
+    100%{
+        opacity: 1.0;
+    }
+}
